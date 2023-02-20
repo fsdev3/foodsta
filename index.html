@@ -23,21 +23,24 @@
   <body>
     <!-- header -->
     <header>
-      <a href="./index.html"
-        ><img src="./img/logo.png" alt="logo" width="66" height="52" id="home"
-      /></a>
-      <nav>
-        <ul class="nav">
-          <li><a class="link nav-link" href="#home">Home</a></li>
-          <li><a class="link nav-link" href="#about">About</a></li>
-          <li><a class="link nav-link" href="#service">Service</a></li>
-          <li><a class="link nav-link" href="#menu">Menu</a></li>
-          <li><a class="link nav-link" href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <button class="btn-green" type="button">Order Now</button>
+      <div class="container header-box">
+        <a href="./index.html">
+          <svg class="logo">
+                <use href="./img/sprite.svg#icon-logo" alt="logo" id="home"></use>
+          </svg>
+        </a>
+        <nav>
+          <ul class="nav list">
+            <li><a class="link nav-link" href="#home">Home</a></li>
+            <li><a class="link nav-link" href="#about">About</a></li>
+            <li><a class="link nav-link" href="#service">Service</a></li>
+            <li><a class="link nav-link" href="#menu">Menu</a></li>
+            <li><a class="link nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="btn" type="button">Order Now</button>
+      </div >
     </header>
-    <!-- main -->
     <main>
       <!-- hero -->
       <section>
@@ -49,10 +52,10 @@
           varius enim in eros elementum tristique. Duis cursus, mi quis viverra
           ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
         </p>
-        <button type="button">Order Now</button>
+        <button class="btn" type="button">Order Now</button>
         <img src="./img/food.jpg" alt="food" width="528" height="528" />
       </section>
-      <!-- section 1 -->
+      <!-- special -->
       <section>
         <img src="./img/apple.jpg" alt="green apple" width="396" height="502" />
         <h2 id="service">What’s Special About Our Offerings</h2>
@@ -82,9 +85,9 @@
             </p>
           </li>
         </ul>
-        <button type="button">Order Now</button>
+        <button class="btn" type="button">Order Now</button>
       </section>
-      <!-- section 2 -->
+      <!-- favorits -->
       <section>
         <h2 id="menu">Some of Our Favorites</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -124,7 +127,7 @@
           </li>
         </ul>
       </section>
-      <!-- section 3 -->
+      <!-- Cust say -->
       <section>
         <h2>What our Customers Say</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -197,17 +200,25 @@
           </div>
         </div>
       </section>
-      <section>
-        <h2>Subscribe To Get Special Offers</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          varius enim in eros elementum tristique.
-        </p>
-        <input type="email" name="email" value="Enter your email" />
-        <button type="button">Subscribe</button>
+     <!-- Subscribe -->
+      <section class="subscribe">
+        <div class="container subs-box">
+          <div>
+            <h2 class="subs-title">Subscribe To Get Special Offers</h2>
+            <p class="subs-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+              varius enim in eros elementum tristique.
+            </p>
+          
+            <input class="subs-form"  type="email" name="email" value="Enter your email" />
+            <button class="btn" type="button">Subscribe</button>
+          </div>
+        <div>
         <img src="./img/banan.jpg" alt="banan" width="608" height="266" />
+        </div>
       </section>
     </main>
+  
     <!-- footer -->
     <footer>
       <div>
