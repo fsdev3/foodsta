@@ -168,6 +168,36 @@ p {
 .btn-white:focus {
   background: var(--accent);
 }
+/* favorite */
+.fav-title {
+font-weight: 700;
+font-size: 42px;
+line-height: 1.17;
+text-align: center;
+margin-top: 100px;
+margin-bottom: 20px;
+}
+.fav-text {
+  line-height: 1.19;
+  text-align: center;
+}
+.fav-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 32px;
+}
+.fav-list>li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 395px;
+  height: 397px;
+  overflow: hidden;
+  border: 16px solid var(--yellow-main);
+  border-radius: 197.5px;
+  margin-bottom: 32px;
+}
 /* subscribe */
 .subscribe {
 }
