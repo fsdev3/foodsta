@@ -18,6 +18,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <link href="./css/styles.css" rel="stylesheet" />
   </head>
   <body>
@@ -46,16 +48,24 @@
     <main>
       <!-- hero -->
       <section>
-        <h1 class="hero-title" id="about">
-          Enjoy Your Favorite Food From Anywhere
-        </h1>
-        <p class="hero-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          varius enim in eros elementum tristique. Duis cursus, mi quis viverra
-          ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
-        </p>
-        <button class="btn" type="button">Order Now</button>
-        <img src="./img/food.jpg" alt="food" width="528" height="528" />
+        <div class="container hero">
+          <div class="hero-item">
+            <h1 class="hero-title" id="about">
+              Enjoy Your Favorite Food From Anywhere
+            </h1>
+            <p class="hero-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+              varius enim in eros elementum tristique. Duis cursus, mi quis viverra
+              ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+            </p>
+            <button class="btn" type="button">Order Now</button>
+          </div >
+          <div class="food-slider autoplay">
+            <img src="./img/food.jpg" alt="food" width="528" height="528" />
+            <img src="./img/salad.jpg" alt="salad" width="528" height="528" />
+            <img src="./img/egg.jpg" alt="egg" width="528" height="528" />
+        </div>
+        </div>
       </section>
       <!-- special -->
       <section>
@@ -266,5 +276,9 @@
       <p>2022 FoodSta. All right reserved.</p>
       <!-- footer pics have to be here -->
     </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/slider.js"></script>
   </body>
 </html>

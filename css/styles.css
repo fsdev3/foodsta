@@ -1,6 +1,7 @@
 :root {
   --primary-text-color: #2c2c2c;
   --accent: #bbf330;
+  --yellow-main: #FFE550;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -54,6 +55,11 @@ p {
   line-height: 1.14;
   color: var(--primary-text-color);
 }
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent);
+  text-decoration: underline;
+}
 .nav-menu {
   display: flex;
   align-items: center;
@@ -74,6 +80,14 @@ p {
 .btn:focus {
   background: yellow;
 }
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+.hero-item {
+  width: 504px;
+  margin-top: 159px;
+}
 .hero-title {
   font-weight: 700;
   font-size: 48px;
@@ -82,7 +96,19 @@ p {
 .hero-text {
   /* font-size: 16px; */
   line-height: 1.5;
+  margin-top: 28px;
+  margin-bottom: 40px;
 }
+.food-slider {
+  top: auto;
+  width: 580px;
+  height: 580px;
+  border-radius: 50%;
+  border: 26px solid var(--yellow-main);
+  background: #fefefe;
+  overflow: hidden;
+}
+
 /* subscribe */
 .subscribe {
 }
