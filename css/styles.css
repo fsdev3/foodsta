@@ -93,6 +93,7 @@ p {
   width: 504px;
   margin-top: 159px;
 }
+
 .hero .title {
   font-weight: 700;
   font-size: 48px;
@@ -197,6 +198,48 @@ margin-bottom: 20px;
   border: 16px solid var(--yellow-main);
   border-radius: 197.5px;
   margin-bottom: 32px;
+}
+/* Cust say */
+.cust-section {
+  background: var(--yellow-main);
+  margin-top: 73px;
+}
+.cust-title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  padding-top: 100px;
+  margin-bottom: 20px;
+}
+.cust-text {
+  line-height: 1.19;
+}
+
+.cust-list {
+  display: flex;
+  gap: 139px;
+}
+
+.cust-item {
+  width: 501px;
+  background: var(--main-white);
+  margin-top: 32px;
+  margin-bottom: 129px;
+  padding: 14px;
+  border-radius: 0px 30px 30px 30px;
+}
+
+.cust-text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+}
+.cust-name {
+  font-weight: 500;
+font-size: 14px;
+}
+.cust-descr {
+  font-size: 14px;
 }
 /* subscribe */
 .subscribe {
