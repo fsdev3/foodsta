@@ -79,8 +79,11 @@
           </p>
           <ul class="list offer-list">
             <li class="item">
-              <!-- svg icon1 pseudo element have to be here -->
-              <img src="./img/rocket.svg" alt="rocket" />
+              <div class="offer-icon">
+                <svg width="32" height="32">
+                  <use href="./img/sprite.svg#icon-rocket" alt="rocket"></use> 
+                </svg>
+              </div>
               <h3 class="offer-title">Fastest Delivery</h3>
               <p class="offer-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -88,8 +91,11 @@
               </p>
             </li>
             <li class="item">
-              <!-- svg icon2 pseudo element have to be here -->
-              <img src="./img/touch.svg" alt="touch" />
+              <div class="offer-icon">
+                <svg width="32" height="32">
+                  <use href="./img/sprite.svg#icon-touch" alt="touch"></use> 
+                </svg>
+              </div>
               <h3 class="offer-title">Easy To Order</h3>
               <p class="offer-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -97,7 +103,7 @@
               </p>
             </li>
           </ul>
-          <button class="btn" type="button">Order Now</button>
+          <button class="btn btn-white" type="button">Order Now</button>
         </div>
       </section>
       <!-- favorits -->

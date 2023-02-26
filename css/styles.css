@@ -1,9 +1,14 @@
 :root {
   --primary-text-color: #2c2c2c;
   --accent: #bbf330;
+  --green-border: #7EB101;
   --yellow-main: #FFE550;
+  --main-white: #fefefe;
+  --white: #FFFFFF;
+  
 }
 body {
+  background: var(--main-white);
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
 }
@@ -78,7 +83,7 @@ p {
 }
 .btn:hover,
 .btn:focus {
-  background: yellow;
+  background: var(--yellow-main);
 }
 .hero {
   display: flex;
@@ -94,8 +99,6 @@ p {
   line-height: 1.2;
 }
 .hero .text {
-  /* font-size: 16px; */
-  line-height: 1.5;
   margin-top: 28px;
   margin-bottom: 40px;
 }
@@ -105,16 +108,19 @@ p {
   height: 580px;
   border-radius: 50%;
   border: 26px solid var(--yellow-main);
-  background: #fefefe;
+  background: var(--main-white);
   overflow: hidden;
 }
+
 /* special */
 .special {
   display: flex;
   justify-content: space-between;
+  background: var(--yellow-main);
 }
 .special .item {
   width: 573px;
+  
 }
 .special .title {
   margin-top: 99px;
@@ -129,17 +135,38 @@ p {
 }
 .offer-list {
   display: flex;
+  gap: 67px;
+  margin-bottom: 32px;
 }
 .offer-list .item {
   width: 253px;
 }
-.offer-list .title {
+.offer-icon {
+  width: 48px;
+  height: 48px;
+  background: var(--main-white);
+  border: 8px solid var(--main-white);
+  border-radius: 50%;
+}
+.offer-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.4%;    
+  line-height: 1.4;  
+  margin-top: 16px;
+  margin-bottom: 16px;  
 }
 .offer-text {
   font-size: 14px;
+}
+.btn-white {
+  background: var(--white);
+  border: 2px solid var(--green-border);
+  border-radius: 30px;
+  margin-bottom: 100px;
+}
+.btn-white:hover,
+.btn-white:focus {
+  background: var(--accent);
 }
 /* subscribe */
 .subscribe {
