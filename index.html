@@ -161,15 +161,17 @@
             to choose from too, I would recommend to a freind, No questions
             asked”
           </p>
-          <div>
+          <div class="cust-info">
             <img
               src="./img/customer_1.jpg"
               alt="customer_1"
               width="48"
               height="48"
             />
-            <p class="cust-name">Sumith Shah</p>
-            <p class="cust-descr">Some Dude</p>
+            <div>
+              <p class="cust-name">Sumith Shah</p>
+              <p class="cust-descr">Some Dude</p>
+            </div>
           </div>
         </li>
             <li class="cust-item">
@@ -181,15 +183,17 @@
             amazing, It has been a very pleasant experience ordering from this
             app”
           </p>
-          <div>
+          <div class="cust-info">
             <img
               src="./img/customer_2.jpg"
               alt="customer_2"
               width="48"
               height="48"
             />
-            <p class="cust-name">Sumith Shah</p>
-            <p class="cust-descr">Some Dude</p>
+            <div>
+              <p class="cust-name">Sumith Shah</p>
+              <p class="cust-descr">Some Dude</p>
+            </div>
           </div>
         </li>
       </ul>
@@ -214,25 +218,24 @@
     </main>
   
     <!-- footer -->
-    <footer>
-      <div>
-        <a href="./index.html"
-          ><img
-            src="./img/logo.png"
-            alt="logo"
-            width="66"
-            height="52"
-            id="contact"
-        /></a>
-        <nav>
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#service">Service</a></li>
-            <li><a href="#menu">Menu</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
+    <footer class="container footer">
+      <div class="footer-nav">
+        <a href="./index.html">
+          <svg class="logo">
+                <use href="./img/sprite.svg#icon-logo" alt="logo" id="home"></use>
+          </svg>
+        </a>
+       <div class="footer-menu">
+          <nav>
+            <ul class="list footer-list">
+              <li><a class="link nav-link" href="#home">Home</a></li>
+              <li><a class="link nav-link" href="#about">About</a></li>
+              <li><a class="link nav-link" href="#service">Service</a></li>
+              <li><a class="link nav-link" href="#menu">Menu</a></li>
+              <li><a class="link nav-link" href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+       </div>
       </div>
       <div>
         <p><label for="user_email">Subscribe</label></p>
