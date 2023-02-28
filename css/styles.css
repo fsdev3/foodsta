@@ -173,6 +173,7 @@ p {
 .btn-white:hover,
 .btn-white:focus {
   background: var(--accent);
+  border-color: transparent;
 }
 /* favorite */
 .fav-title {
@@ -289,6 +290,9 @@ font-size: 14px;
   border: 0.854167px solid var(--yellow-main);
   border-radius: 30px;
 }
+.subs-form::placeholder {
+  padding-left: 11px;
+}
 
 /* footer */
 .footer {
@@ -298,10 +302,24 @@ font-size: 14px;
 .footer-nav {
   padding-top: 100px;
   display: flex;
+  justify-content: space-between;
   gap: 148px;
   align-items: center;
+}
+.footer-menu {
+  margin-right: 320px;
 }
 .footer-list {
   display: flex;
   gap: 28px;
+}
+.subs-footer {
+  width: 279px;
+  
+}
+.btn-footer {
+  background: var(--white);
+  border: 0.854167px solid var(--green-border);
+  border-radius: 30px;
+  padding: 11px 22px;
 }
