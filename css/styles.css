@@ -296,6 +296,11 @@ p {
   margin-top: 64px;
   box-shadow: 0px -4px 24px rgba(105, 105, 105, 0.1);
 }
+.footer-box-pic {
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-image: url(../img/fruits-footer.jpg);
+}
 .footer-nav {
   padding-top: 100px;
   display: flex;
