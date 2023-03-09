@@ -1,12 +1,11 @@
 :root {
   --primary-text-color: #2c2c2c;
   --accent: #bbf330;
-  --green-border: #7EB101;
-  --yellow-main: #FFE550;
+  --green-border: #7eb101;
+  --yellow-main: #ffe550;
   --main-white: #fefefe;
-  --white: #FFFFFF;
+  --white: #ffffff;
   --hero-bg: #f5f5f5;
-  
 }
 body {
   background: var(--main-white);
@@ -45,7 +44,6 @@ p {
   margin: 0 auto;
   padding-left: 16px;
   padding-right: 16px;
-
 }
 .header-box {
   display: flex;
@@ -126,7 +124,6 @@ p {
 }
 .special .item {
   width: 573px;
-  
 }
 .special .title {
   margin-top: 99px;
@@ -157,9 +154,9 @@ p {
 .offer-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.4;  
+  line-height: 1.4;
   margin-top: 16px;
-  margin-bottom: 16px;  
+  margin-bottom: 16px;
 }
 .offer-text {
   font-size: 14px;
@@ -177,12 +174,12 @@ p {
 }
 /* favorite */
 .fav-title {
-font-weight: 700;
-font-size: 42px;
-line-height: 1.17;
-text-align: center;
-margin-top: 100px;
-margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
 }
 .fav-text {
   line-height: 1.19;
@@ -194,7 +191,7 @@ margin-bottom: 20px;
   flex-wrap: wrap;
   margin-top: 32px;
 }
-.fav-list>li {
+.fav-list > li {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -244,7 +241,7 @@ margin-bottom: 20px;
 }
 .cust-name {
   font-weight: 500;
-font-size: 14px;
+  font-size: 14px;
 }
 .cust-descr {
   font-size: 14px;
@@ -302,12 +299,11 @@ font-size: 14px;
 .footer-nav {
   padding-top: 100px;
   display: flex;
-  justify-content: space-between;
-  gap: 148px;
   align-items: center;
 }
 .footer-menu {
-  margin-right: 320px;
+  margin-left: 148px;
+  margin-right: 318px;
 }
 .footer-list {
   display: flex;
@@ -315,11 +311,43 @@ font-size: 14px;
 }
 .subs-footer {
   width: 279px;
-  
+}
+.subs-footer-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.subs-footer-text {
+  font-size: 12px;
+  line-height: 1.17px;
+}
+.subs-form {
+  margin: 12px 13px 18px 0;
+}
+.footer-links,
+.footer-menu-links > li > a {
+  color: var(--green-border);
+  text-decoration: underline var(--green-border);
+}
+
+.footer-menu-links > li > a {
+  font-size: 12px;
+  line-height: 1.17px;
 }
 .btn-footer {
   background: var(--white);
   border: 0.854167px solid var(--green-border);
   border-radius: 30px;
   padding: 11px 22px;
+}
+.footer-menu-links {
+  display: flex;
+  gap: 20px;
+}
+.footer-end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+  padding-bottom: 100px;
 }
