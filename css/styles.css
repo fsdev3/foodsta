@@ -34,6 +34,10 @@ h6,
 p {
   margin: 0;
 }
+img {
+  margin: 0;
+  padding: 0;
+}
 .logo {
   width: 66px;
   height: 52px;
@@ -204,7 +208,8 @@ p {
 }
 /* Cust say */
 .cust-section {
-  background: var(--yellow-main);
+  background: url(../img/customers-say-bg.jpg);
+  background-color: var(--yellow-main);
   margin-top: 73px;
 }
 .cust-title {
@@ -217,7 +222,6 @@ p {
 .cust-text {
   line-height: 1.19;
 }
-
 .cust-list {
   display: flex;
   gap: 139px;
@@ -227,17 +231,17 @@ p {
   width: 501px;
   background: var(--main-white);
   margin-top: 32px;
-  margin-bottom: 129px;
+  margin-bottom: 193px;
   padding: 14px;
   border-radius: 0px 30px 30px 30px;
 }
-
-.cust-text {
-  margin-top: 28px;
-  margin-bottom: 40px;
+.stars-ico {
+  margin-bottom: 28px;
+}
+.cust-say {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.17;
+  line-height: 1.16;
 }
 .cust-name {
   font-weight: 500;
@@ -248,6 +252,7 @@ p {
 }
 .cust-info {
   display: flex;
+  margin-top: 40px;
   width: 160px;
   height: 52px;
   gap: 16px;
@@ -268,8 +273,9 @@ p {
 .subs-box {
   display: flex;
   align-items: center;
+  position: relative;
+  top: -61px;
 }
-
 .subs-text {
   margin-top: 20px;
 }
@@ -290,10 +296,11 @@ p {
 .subs-form::placeholder {
   padding-left: 11px;
 }
-
+.banana {
+}
 /* footer */
 .footer {
-  margin-top: 64px;
+  margin-top: 3px;
   box-shadow: 0px -4px 24px rgba(105, 105, 105, 0.1);
 }
 .footer-box-pic {
