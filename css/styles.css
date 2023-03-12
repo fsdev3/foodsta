@@ -146,20 +146,6 @@ img {
   margin-bottom: 43px;
   margin-top: auto;
 }
-.apple-gradient {
-  position: absolute;
-  z-index: 0;
-  width: 252px;
-  height: 87px;
-  left: 155px;
-  top: 455px;
-  background: radial-gradient(
-    50% 50% at 50% 50%,
-    #2f583f 0%,
-    rgba(105, 105, 105, 0) 100%
-  );
-  filter: blur(13px);
-}
 .special-box {
   width: 573px;
   margin-bottom: 100px;
